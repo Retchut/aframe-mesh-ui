@@ -2,7 +2,8 @@
 	"name": "aframe-mesh-ui-components",
 	"version": "0.5.1",
 	"description": "A simple port of felixmariotto's three-mesh-ui package for use in A-Frame's environment",
-	"main": "index.js",
+	"main": "dist/aframe-mesh-ui.min.js",
+	"module": "src/index.js",
 	"type": "module",
 	"scripts": {
 		"dist": "npm run dist:min && npm run dist:max",
